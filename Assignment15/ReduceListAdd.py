@@ -1,4 +1,4 @@
-from functools import  reduce
+#write lambda function using reduce () which accepts  list of number and returns the addition of  all elements
 
 from functools import reduce
 

@@ -1,5 +1,4 @@
-#write a lambda function using fliter ()which accept a list  of numbers and return  a list of squares of each number
-
+#write a lambda function using fliter ()which accept a list  of numbers and return  a list of even number
 
 Square=lambda Data:list(filter(lambda No:No % 2==0,Data))
 

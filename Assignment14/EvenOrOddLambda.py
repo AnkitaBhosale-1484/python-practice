@@ -4,7 +4,7 @@ EvenOdd=lambda No1:True if No1%2 ==0 else False
 def main():
     value=int(input("enter the number"))
     Ans=EvenOdd(value)
-    print("Even or Odd",Ans)
+    print("Even or Odd:",Ans)
 
 
 if __name__=="__main__":
