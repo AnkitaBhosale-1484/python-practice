@@ -11,5 +11,4 @@ def ChkPrime(No):
 
 
 
-
     

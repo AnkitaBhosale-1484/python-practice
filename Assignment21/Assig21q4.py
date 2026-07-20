@@ -6,23 +6,23 @@ Return the results to the main thread and display them.'''
 
 import threading
 
-SumResult = 0
-ProductResult = 1
+Sum = 0
+Product = 1
 
 def SumList(Data):
 
-    global SumResult
+    global Sum
 
     for i in Data:
-        SumResult = SumResult + i
+        Sum = Sum + i
 
 
 def ProductList(Data):
 
-    global ProductResult
+    global Product
 
     for i in Data:
-        ProductResult = ProductResult * i
+        Product = Product * i
 
 
 def main():
@@ -45,8 +45,8 @@ def main():
     T1.join()
     T2.join()
 
-    print("Sum of elements:", SumResult)
-    print("Product of elements:", ProductResult)
+    print("Sum of elements:", Sum)
+    print("Product of elements:", Product)
 
 
 if __name__ == "__main__":

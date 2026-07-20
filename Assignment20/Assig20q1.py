@@ -4,7 +4,7 @@
 #both threads should execute independently using the threading module
 #ensure proper thread creation and execution
 
-import time
+
 import threading
 def Even():
     print("first 10 even number")
